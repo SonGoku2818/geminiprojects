@@ -1,0 +1,125 @@
+/* Dark Theme Styles */
+
+/* Main container */
+.stApp {
+    background-color: #121212;
+    color: #e0e0e0;
+    min-height: 100vh;
+}
+
+/* Text colors */
+h1, h2, h3, h4, h5, h6, p, div, span {
+    color: #e0e0e0 !important;
+}
+
+/* Header styling */
+h1 {
+    color: #ffffff !important;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+}
+
+/* File uploader */
+.stFileUploader > label {
+    background-color: #1e1e1e !important;
+    border: 2px dashed #4a90e2 !important;
+    color: #e0e0e0 !important;
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.stFileUploader > label:hover {
+    background-color: #252525 !important;
+    border-color: #3a7bc8 !important;
+}
+
+/* Description box */
+.description-box {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 4px solid #4a90e2;
+    margin-bottom: 20px;
+}
+
+/* Chat messages */
+.stChatMessage.user {
+    background-color: #2d3b4d !important;
+    color: #ffffff !important;
+}
+
+.stChatMessage.assistant {
+    background-color: #2d2d2d !important;
+    color: #ffffff !important;
+}
+
+/* Input fields */
+.stTextInput > div > div > input {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+    border: 1px solid #333 !important;
+}
+
+/* Buttons */
+.stButton > button, .stDownloadButton > button {
+    background-color: #4a90e2 !important;
+    color: white !important;
+}
+
+.stButton > button:hover, .stDownloadButton > button:hover {
+    background-color: #3a7bc8 !important;
+}
+
+/* Sidebar */
+.sidebar .sidebar-content {
+    background-color: #1e1e1e !important;
+}
+
+/* History items */
+.history-entry {
+    background-color: #252525 !important;
+    color: #ffffff !important;
+    border-left: 3px solid transparent;
+}
+
+.history-entry:hover {
+    background-color: #2d2d2d !important;
+    border-left: 3px solid #4a90e2 !important;
+}
+
+/* Select boxes */
+.stSelectbox > div > div > div {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+}
+
+/* Expander */
+.stExpander {
+    background-color: #1e1e1e !important;
+    border: 1px solid #333 !important;
+}
+
+/* Image styling */
+.stImage {
+    border: 1px solid #333 !important;
+    border-radius: 10px;
+}
+
+/* Spinner color */
+.stSpinner > div {
+    color: #4a90e2 !important;
+}
+
+/* Error messages */
+.stAlert {
+    background-color: #2d1e1e !important;
+    border-left: 4px solid #e74c3c !important;
+}
+
+/* Success messages */
+.stSuccess {
+    background-color: #1e2d1e !important;
+    border-left: 4px solid #2ecc71 !important;
+}
